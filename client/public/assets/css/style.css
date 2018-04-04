@@ -1,0 +1,98 @@
+
+
+/* Head font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,700');
+/* Body font */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+
+
+
+
+/* Resets */
+*::before, *::after,
+*:before, *:after{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+	
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix::before, .clearfix::after, 
+.container::before, .container::after,
+.row::before, .row::after,
+.row:before,.row:after{
+    content: " ";
+    display: table;
+}
+    
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}	
+
+img,
+object,
+embed {max-width: 100%;}
+
+
+
+
+
+/* General */
+html {
+	font-size: 100%;
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll;
+	-ms-text-size-adjust: 100%;
+  	-webkit-text-size-adjust: 100%;
+  	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+background-color: #FFFFFF;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+font-family: 'Montserrat', sans-serif;
+	font-size: 1.1em;
+	line-height: 1.4em;	
+	font-weight: normal;
+    color: #444444;
+    text-align: left;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 1.7rem;
+	font-weight: 300;
+    letter-spacing: 3px;
+}
+
+h1.header {
+	text-align: center;
+}
+
+
+/* Navigation */
+.navbar-header {
+	position: absolute;
+    top: 10px;
+}
+
+.navbar-toggler-icon {
+	height: 0em;
+}

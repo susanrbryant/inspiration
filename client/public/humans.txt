@@ -1,0 +1,21 @@
+﻿/* humanstxt.org */ 
+                
+/* TEAM */                      
+Your title: Susan R Bryant                  
+
+Linked In: https://www.linkedin.com/in/susan-bryant-45300399/
+
+Location: Schaumburg, IL, USA.
+
+
+/* THANKS TO */
+Name: Susan R Bryant
+
+
+/* SITE */                     
+Last update: 2018/04/17 
+
+Doctype: HTML5               
+Standard: HTML5, CSS3, JavaScript.         
+Components: node.js, express.js, react.js, passport.js
+Database: MySQL
